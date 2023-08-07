@@ -1,10 +1,12 @@
-# Esp8266OledGPS Pager
+# Esp8266 OledGPSPager
 
 ### Notice: Old prototype of the final product, development 2021-2022. <b>Provided as is.</b>
 
 Its main purpose is to track the user by GPS (send final data to the server), as well as receive short messages from the server and display them on the oled screen.
 
-<b> Client: </b>
+# Client:
+
+Small device based on `esp8266` code developed using `Arduino` environment and `C++` programming language.
 
 | | Data  | URL |
 |-| -------- | -- |
@@ -22,7 +24,7 @@ Its main purpose is to track the user by GPS (send final data to the server), as
 |4| Battery 800mah |
 |5| gps neo-7m |
 
-<b> Server: </b>
+# Server:
 
 The server part is allocated separately and is not included in this project.
 

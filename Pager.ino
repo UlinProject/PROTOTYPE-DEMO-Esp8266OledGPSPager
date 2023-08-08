@@ -1,4 +1,5 @@
 
+// #UlinProject 21
 // #UlinProject 22
 
 #include "all_pins.h"
@@ -13,9 +14,9 @@
 #include <SoftwareSerial.h>
 #include <ESP8266HTTPUpdateServer.h>
 
-#define ssid "SalutePoint"
+#define ssid "ProtoPoint"
 #define password "123456qwerty"
-#define host "http://openshiftmaster-denis2005991-dev.apps.sandbox.x8i5.p1.openshiftapps.com"
+#define host "http://<UNK>.com"
 
 String channel_name;
 String nickname;
@@ -77,7 +78,7 @@ void setup() {
   
   WiFi.mode(WIFI_STA);
   WiFi.setAutoReconnect(true);
-  WiFi.hostname("SaluteHALClient");
+  WiFi.hostname("ProtoHALClient");
   WiFi.setOutputPower(20.5);
   WiFi.begin ( ssid, password );
   

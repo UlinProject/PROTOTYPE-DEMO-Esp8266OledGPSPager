@@ -31,3 +31,11 @@ The server part is allocated separately and is not included in this project.
 | | Name | URL |
 |-| -------- | -- |
 |1| Example recv data | <a href="photo/03 demo data example.jpg">Next</a> |
+
+# License
+
+Copyright 2021-2022 #UlinProject Denis Kotlyarov (Денис Котляров)
+
+Licensed under the Apache License, Version 2.0
+
+<b>This project is provided as is without warranty of any kind.</b>
